@@ -47,10 +47,10 @@ class Monopoly:
 
 class Property:
 	def __init__(self,name,postion,price,rent):
-    	self.name = name
-        self.postion = postion
-        self.price = price
-        self.rent = rent
+		self.name = name
+		self.postion = postion
+		self.price = price
+		self.rent = rent
     
 	def add_smallhouse(self):
 		select_newprop = input()
